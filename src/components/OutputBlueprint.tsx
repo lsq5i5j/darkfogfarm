@@ -96,6 +96,9 @@ const OutputBluePrint: React.FC<ReactFarmConfig> = ({ farmConfig }) => {
       </Box>
 
       <Box>
+        <Typography variant="body2" component="h2" gutterBottom align="left">
+          生成的蓝图属于仙术，建议使用前备份存档。
+        </Typography>
         <TextField
           label="Enter Text"
           variant="outlined"

@@ -51,12 +51,12 @@ const FarmSelectSizeConfig: React.FC<FarmSizeProps> = ({
           <FormControlLabel
             value="l"
             control={<Radio />}
-            label="大形农场，保留除激光塔外全部黑雾建筑"
+            label="大形农场，保留6个强袭者营地，6个守卫者营地, 6个游骑兵营地"
           />
           <FormControlLabel
             value="xl"
             control={<Radio />}
-            label="超大形农场，保留全部黑雾建筑"
+            label="超大形农场，保留全部6个强袭者营地，6个守卫者营地, 9个游骑兵营地"
           />
         </RadioGroup>
       </FormControl>

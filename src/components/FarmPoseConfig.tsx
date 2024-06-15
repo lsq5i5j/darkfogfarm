@@ -66,9 +66,9 @@ const FarmPoseConfig: React.FC<FarmSizeProps> = ({
 
   return (
     <Grid container spacing={2}>
-      <Grid item md>
+      <Grid item xs={6}>
         <TextField
-          label={"黑屋基地纬度"}
+          label={"黑雾基地纬度"}
           variant="outlined"
           fullWidth
           defaultValue={latitude}
@@ -83,9 +83,9 @@ const FarmPoseConfig: React.FC<FarmSizeProps> = ({
           }`}
         </Typography>
       </Grid>
-      <Grid item md>
+      <Grid item xs={6}>
         <TextField
-          label={"黑屋基地经度"}
+          label={"黑雾基地经度"}
           variant="outlined"
           fullWidth
           defaultValue={longitude}
