@@ -228,7 +228,7 @@ function alignObject(
 ) {
   if (onGrid) {
     objPose.localOffsetX = Math.round(objPose.localOffsetX);
-    objPose.localOffsetX = Math.round(objPose.localOffsetX);
+    objPose.localOffsetY = Math.round(objPose.localOffsetY);
   }
   if (!rotate) {
     objPose.yaw = Math.round(Math.round(objPose.yaw / 90) * 90);
@@ -288,6 +288,7 @@ export function generateFarmBlueprintData(farm: FarmConfig) {
     farm.theta,
     objNum
   );
+
   // add names for the objects based on the building type
   const turretSignalGap = Math.round(objNum / farm.turretSignal.num);
   for (let i = 0; i < attackObjPoses.length; i++) {

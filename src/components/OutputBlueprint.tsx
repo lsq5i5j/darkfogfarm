@@ -96,16 +96,20 @@ const OutputBluePrint: React.FC<ReactFarmConfig> = ({ farmConfig }) => {
       </Box>
 
       <Box>
-        <Typography variant="body2" component="h2" gutterBottom align="left">
-          生成的蓝图属于仙术，建议使用前备份存档。
-        </Typography>
+        {/* <Typography
+          variant="body2"
+          component="h2"
+          gutterBottom
+          align="left"
+        ></Typography> */}
         <TextField
-          label="Enter Text"
+          label="生成的蓝图属于仙术，建议使用前备份存档。"
           variant="outlined"
           fullWidth
           multiline
           rows={4}
           value={bpData}
+          sx={{ marginTop: "5px" }}
           // sx={{
           //   "& .MuiInputBase-root": {
           //     height: "50vh", // You can set the height you want here

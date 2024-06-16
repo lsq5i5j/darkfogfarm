@@ -63,8 +63,8 @@ const BuildingConfig: React.FC<BuildingConfigProps> = ({
           value={onGrid ? "yes" : "no"}
           onChange={handleOnGridChange}
         >
-          <FormControlLabel value="yes" control={<Radio />} label="是" />
-          <FormControlLabel value="no" control={<Radio />} label="否" />
+          <FormControlLabel value="no" control={<Radio />} label="是" />
+          <FormControlLabel value="yes" control={<Radio />} label="否" />
         </RadioGroup>
       </FormControl>
       <FormControl component="fieldset" sx={{ margin: "10px" }}>
